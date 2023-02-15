@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#">
-    <img alt="Gatsby" src="src/images/brand.png" width="60" />
+    <img alt="Gatsby" src="src/images/brand1.png" width="60" />
   </a>
 </p>
 <h1 align="center">
