@@ -1,7 +1,6 @@
+![Alt text](src/images/brand.svg?raw=true "Title")
 <p align="center">
-  <a href="#">
-    <img alt="Gatsby" src="src/images/brand.svg" width="60" />
-  </a>
+
 </p>
 <h1 align="center">
  Magic Quote App build with React/gatsby
