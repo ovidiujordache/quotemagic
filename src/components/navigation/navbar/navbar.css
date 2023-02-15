@@ -1,0 +1,152 @@
+.qm_Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+.logo-placeholder{
+    font-family:var(--font-family-montserrat);
+    color: var(--biscay);
+    
+}
+
+.qm_Navbar-Links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.qm_Navbar-Links_Logo{
+    margin-right: 2rem
+}
+
+.qm_Navbar-Links_Logo img{
+  width: 150px;
+  height: 40px;
+}
+
+.qm_Navbar-Links_Container{
+    display: flex;
+    flex-direction: row;
+}
+
+.qm_Navbar-Login{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.qm_Navbar-Links_Container p, 
+.qm_Navbar-Login p,
+.qm_Navbar-Menu_Container p{
+    color: var(--biscay);
+    font-family: var(--font-family-montserrat);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.qm_Navbar-Login button,
+.qm_Navbar-Menu_Container button{
+    padding: 0.25rem 0.5rem;
+    color: var(--panache);
+    font-family: var(--font-family-montserrat);
+    font-weight: 500;
+    font-size:18px;
+    line-height:25px;
+    background: #A10165;
+    border-radius: 15px;
+    border:0;
+    outline:none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out
+}
+
+.qm_Navbar-Login button:hover{
+    background-color: #f794d1;
+}
+
+.qm_Navbar-Menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.qm_Navbar-Menu svg{
+    cursor: pointer
+}
+
+.qm_Navbar-Menu_Container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align:left;
+    background: var(--polo-blue );
+    padding: 1rem;
+    position: absolute;
+    top: 24px;
+    right: 0px;
+    margin-top: 0.5rem;
+    min-width: 105px;
+    border-radius: 7px;
+    box-shadow: 0 0 5 rgba(0,0,0,0.2);
+}
+
+.qm_Navbar-Menu_Container p{
+   margin: 1rem 0;
+}
+
+.qm_Navbar-Menu_Container-Links-Login{
+    display: none;
+    text-decoration: underline;
+}
+
+
+@media screen  and (max-width :1050px)
+{
+
+    .qm_Navbar-Links_Container{
+        display: none;
+    }
+
+    .qm_Navbar-Menu{
+        display: flex;
+    }
+    
+}
+
+@media screen  and (max-width :700px)
+{
+    .qm_Navbar
+    {
+        padding: 2rem 4rem;
+    }
+    
+}
+
+
+@media screen  and (max-width :550px)
+{
+
+    .qm_Navbar{
+        padding: 2rem;
+    }
+    
+    .qm_Navbar-Login{
+        display: none;
+    }
+
+    .qm_Navbar-Menu_Container{
+        top: 20px;
+    }
+
+    .qm_Navbar-Menu_Container-Links-Login{
+        display: block;
+    }
+}
