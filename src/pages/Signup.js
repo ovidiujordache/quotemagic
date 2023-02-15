@@ -7,22 +7,17 @@ import{NavBar,Header,Footer}from '../components';
 <NavBar/>
 
 
-<p>SIGN UP ..Ea eu culpa
- mollit dolore consectetur nisi commodo excepteur c
-illum ut dolore ea officia magna labore.</p></div>
+<form>
+  <label>
+    Name:
+    <input type="text" name="name" />
+  </label>
+  <input type="text" name="name" />
+  <input type="submit" value="Submit" />
+</form>
+</div>
 
   )
 }
 
-export function Login(){
-   return (
-<div>
-<NavBar/>
 
-
-<p>Login ..Ea eu culpa
- mollit dolore consectetur nisi commodo excepteur c
-illum ut dolore ea officia magna labore.</p></div>
-
-  )
-}
