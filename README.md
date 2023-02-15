@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#">
-    <img alt="Gatsby" src="src/images/Footer_Logo.png" width="60" />
+    <img alt="Gatsby" src="https://imgcdn.dev/i/SL1J8" width="60" />
   </a>
 </p>
 <h1 align="center">
