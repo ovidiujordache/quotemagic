@@ -1,6 +1,6 @@
 <p align="center">
  
-    <img alt="Gatsby" src="/src/images.Footer_Logo.png" width="60" />
+    <img alt="Gatsby" src="/src/images/Footer_Logo.png" width="60" />
  
 </p>
 <h1 align="center">
