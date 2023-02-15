@@ -1,24 +1,24 @@
 <p align="center">
- 
-    <img alt="Gatsby" src="/src/images/Footer_Logo.png" width="60" />
- 
+  <a href="#">
+    <img alt="Gatsby" src="./src/images/Footer_Logo.png" width="60" />
+  </a>
 </p>
 <h1 align="center">
-Magic Quote on React/gatsby
+ Magic Quote App build with React/gatsby
 </h1>
 
+ **Start developing.**
 
+    Navigate into your new site’s directory and start it up.
 
-1
-
-  **Start developing.**
-
-
+    ```shell
+    cd my-gatsby-site/
     npm run develop
     ```
 
- **Open the code and start customizing!**
+  **Open the code and start customizing!**
 
     Your site is now running at http://localhost:8000!
 
     Edit `src/pages/index.js` to see your site update in real-time!
+
